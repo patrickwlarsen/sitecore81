@@ -1,0 +1,11 @@
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\SitecoreDev.Foundation.SitecoreExtensions.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\SitecoreDev.Foundation.SitecoreExtensions.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Sitecore.Kernel.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Sitecore.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Newtonsoft.Json.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.csprojResolveAssemblyReference.cache
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.csproj.CoreCompileInputs.cache
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.pdb

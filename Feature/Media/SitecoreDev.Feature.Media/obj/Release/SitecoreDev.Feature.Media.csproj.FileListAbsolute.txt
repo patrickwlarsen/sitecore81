@@ -20,7 +20,6 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\SitecoreDev.Feature.Media.csprojResolveAssemblyReference.cache
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\SitecoreDev.Feature.Media.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\SitecoreDev.Feature.Media.pdb
-C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Feature.Media.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\SitecoreDev.Feature.Media.csproj.CoreCompileInputs.cache
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\roslyn\csc.exe
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\roslyn\csc.exe.config
@@ -84,4 +83,4 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.Deployment.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.Razor.dll
-C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\Web.config
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\App_Config\Include\Feature\Feature.Media.config
