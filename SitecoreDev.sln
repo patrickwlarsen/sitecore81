@@ -5,6 +5,26 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Web", "SitecoreDev.Web\SitecoreDev.Web.csproj", "{8FBCF244-545B-4575-978D-D87A31230648}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{24228266-3A4D-43A1-9ED1-0969FA87A62C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{7B353391-929A-4889-9C2E-CBFD84AA9A22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FB27E57B-B63F-427D-8885-456C62CD3B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C0578BE4-F88A-42C2-83E8-439D9F978B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreDev", "SitecoreDev", "{D592E824-62E7-44C2-B13B-F80445BC7816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Website", "SitecoreDev.Website\SitecoreDev.Website.csproj", "{94ABC802-C3A9-42D3-B08E-26F04768A28D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{5BD3A428-61FF-469C-A5DF-8307BF52ADEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.SitecoreExtensions", "Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions.csproj", "{C2CA5781-C8BF-4A63-A32D-5898C234C2F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{A6F87069-2268-46CB-A8EC-75D4B2FA4723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.Styles", "Foundation\Styles\SitecoreDev.Foundation.Styles\SitecoreDev.Foundation.Styles.csproj", "{5AB770A5-327E-45E9-B60C-947BCFE5FF24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +35,29 @@ Global
 		{8FBCF244-545B-4575-978D-D87A31230648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FBCF244-545B-4575-978D-D87A31230648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FBCF244-545B-4575-978D-D87A31230648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ABC802-C3A9-42D3-B08E-26F04768A28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ABC802-C3A9-42D3-B08E-26F04768A28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ABC802-C3A9-42D3-B08E-26F04768A28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ABC802-C3A9-42D3-B08E-26F04768A28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CA5781-C8BF-4A63-A32D-5898C234C2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CA5781-C8BF-4A63-A32D-5898C234C2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CA5781-C8BF-4A63-A32D-5898C234C2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CA5781-C8BF-4A63-A32D-5898C234C2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB770A5-327E-45E9-B60C-947BCFE5FF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB770A5-327E-45E9-B60C-947BCFE5FF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB770A5-327E-45E9-B60C-947BCFE5FF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB770A5-327E-45E9-B60C-947BCFE5FF24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D592E824-62E7-44C2-B13B-F80445BC7816} = {24228266-3A4D-43A1-9ED1-0969FA87A62C}
+		{94ABC802-C3A9-42D3-B08E-26F04768A28D} = {D592E824-62E7-44C2-B13B-F80445BC7816}
+		{5BD3A428-61FF-469C-A5DF-8307BF52ADEC} = {7B353391-929A-4889-9C2E-CBFD84AA9A22}
+		{C2CA5781-C8BF-4A63-A32D-5898C234C2F0} = {5BD3A428-61FF-469C-A5DF-8307BF52ADEC}
+		{A6F87069-2268-46CB-A8EC-75D4B2FA4723} = {7B353391-929A-4889-9C2E-CBFD84AA9A22}
+		{5AB770A5-327E-45E9-B60C-947BCFE5FF24} = {A6F87069-2268-46CB-A8EC-75D4B2FA4723}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C568306-C639-449D-958E-E36404ED465F}
