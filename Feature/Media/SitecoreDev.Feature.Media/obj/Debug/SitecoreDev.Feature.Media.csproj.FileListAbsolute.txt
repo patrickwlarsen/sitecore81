@@ -22,3 +22,5 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Debug\SitecoreDev.Feature.Media.csproj.CoreCompileInputs.cache
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Debug\SitecoreDev.Feature.Media.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Debug\SitecoreDev.Feature.Media.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Feature.Articles.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Feature.Articles.pdb

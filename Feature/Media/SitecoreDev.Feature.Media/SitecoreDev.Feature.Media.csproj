@@ -108,7 +108,12 @@
     <None Include="packages.config" />
     <Content Include="Views\Media\HeroSlider.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Articles\SitecoreDev.Feature.Articles\SitecoreDev.Feature.Articles.csproj">
+      <Project>{7abfb30a-ba2c-4a2c-bbda-011220425a99}</Project>
+      <Name>SitecoreDev.Feature.Articles</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
