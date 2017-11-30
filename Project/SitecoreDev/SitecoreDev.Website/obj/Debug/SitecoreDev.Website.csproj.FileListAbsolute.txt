@@ -1,3 +1,5 @@
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Debug\SitecoreDev.Website.csprojResolveAssemblyReference.cache
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Debug\SitecoreDev.Website.csproj.CoreCompileInputs.cache
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\SitecoreDev.Website.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\SitecoreDev.Website.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\SitecoreDev.Website.pdb
@@ -16,7 +18,8 @@ C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\System.Web.Webpages.Razor.xml
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\System.Web.Helpers.xml
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\System.Web.Mvc.xml
-C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Debug\SitecoreDev.Website.csprojResolveAssemblyReference.cache
-C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Debug\SitecoreDev.Website.csproj.CoreCompileInputs.cache
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Debug\SitecoreDev.Website.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Debug\SitecoreDev.Website.pdb
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Sitecore.Kernel.dll
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Sitecore.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Newtonsoft.Json.dll

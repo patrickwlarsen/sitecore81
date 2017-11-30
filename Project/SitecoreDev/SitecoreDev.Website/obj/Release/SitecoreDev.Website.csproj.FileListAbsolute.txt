@@ -3,6 +3,8 @@ C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\SitecoreDev.Website.pdb
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Microsoft.Web.Infrastructure.dll
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Sitecore.Kernel.dll
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\Sitecore.Mvc.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\System.Web.Helpers.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\System.Web.Mvc.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\bin\System.Web.Razor.dll
@@ -75,6 +77,8 @@ C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\Views\Shared\DefaultMVCLayout.cshtml
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\Microsoft.Web.Infrastructure.dll
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\Sitecore.Kernel.dll
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\Sitecore.Mvc.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\System.Web.Helpers.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\System.Web.Mvc.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\System.Web.Razor.dll
