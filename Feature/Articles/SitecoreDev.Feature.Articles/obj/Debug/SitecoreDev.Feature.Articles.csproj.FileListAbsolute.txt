@@ -22,3 +22,14 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articl
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Debug\SitecoreDev.Feature.Articles.csproj.CoreCompileInputs.cache
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Debug\SitecoreDev.Feature.Articles.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Debug\SitecoreDev.Feature.Articles.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Castle.Core.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.Sc.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.Sc.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Castle.Core.xml
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.xml
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.Sc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.Sc.xml
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.Sc.Mvc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\Glass.Mapper.Sc.Mvc.xml
