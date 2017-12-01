@@ -107,8 +107,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\GlassMapperSc.cs" />
-    <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="Controllers\ArticlesController.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\BlogComment.cs" />
@@ -117,9 +115,7 @@
     <Compile Include="Models\IComment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FakeBlogCommentRepository.cs" />
-    <Compile Include="Repositories\IArticlesRepository.cs" />
     <Compile Include="Repositories\ICommentRepository.cs" />
-    <Compile Include="Repositories\SitecoreArticlesRepository.cs" />
     <Compile Include="Services\BlogCommentService.cs" />
     <Compile Include="Services\ICommentService.cs" />
     <Compile Include="Services\IContentService.cs" />
@@ -129,14 +125,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <None Include="packages.config" />
     <Content Include="Views\Articles\BlogPost.cshtml" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Model\SitecoreDev.Foundation.Model\SitecoreDev.Foundation.Model.csproj">
+      <Project>{101fda9f-cf11-4272-83ff-3cdb967ce8f9}</Project>
+      <Name>SitecoreDev.Foundation.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Repository\SitecoreDev.Foundation.Repository\SitecoreDev.Foundation.Repository.csproj">
+      <Project>{c3a89338-76d2-4c92-99d8-ee583c674ec0}</Project>
+      <Name>SitecoreDev.Foundation.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

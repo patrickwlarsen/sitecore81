@@ -88,3 +88,5 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Feature.Articles.pdb
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\SitecoreDev.Feature.Articles.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\SitecoreDev.Feature.Articles.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Feature.Articles.dll.config
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\obj\Release\Package\PackageTmp\bin\SitecoreDev.Feature.Articles.dll.config
