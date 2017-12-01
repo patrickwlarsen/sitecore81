@@ -9,9 +9,9 @@ namespace SitecoreDev.Feature.Articles.Services
     {
         private readonly IContentRepository _repository;
 
-        public SitecoreContentService()
+        public SitecoreContentService(IContentRepository repository)
         {
-            _repository = new SitecoreContentRepository();
+            _repository = repository;
         }
 
         public IArticle GetArticleContent(string contentGuid)

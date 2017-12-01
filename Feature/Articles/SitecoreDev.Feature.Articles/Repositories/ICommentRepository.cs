@@ -3,7 +3,7 @@ using SitecoreDev.Feature.Articles.Models;
 
 namespace SitecoreDev.Feature.Articles.Repositories
 {
-    interface ICommentRepository
+    public interface ICommentRepository
     {
         IEnumerable<IComment> GetComments(string blogId);
     }

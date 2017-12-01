@@ -2,7 +2,7 @@
 
 namespace SitecoreDev.Feature.Articles.Services
 {
-    interface IContentService
+    public interface IContentService
     {
         IArticle GetArticleContent(string contentGuid);
     }
