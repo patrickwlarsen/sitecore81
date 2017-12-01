@@ -60,6 +60,9 @@
       <HintPath>..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SimpleInjector, Version=4.0.12.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\SimpleInjector.4.0.12\lib\net45\SimpleInjector.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\libs\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -109,9 +112,11 @@
   <ItemGroup>
     <Compile Include="Content\IContentRepository.cs" />
     <Compile Include="Content\SitecoreContentRepository.cs" />
+    <Compile Include="Pipelines\InitializeContainer\RegisterDependencies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_config\Include\Foundation\Foundation.Repository.config" />
     <None Include="packages.config" />
     <Content Include="web.config" />
     <None Include="web.Debug.config">
@@ -126,6 +131,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\IoC\SitecoreDev.Foundation.Ioc\SitecoreDev.Foundation.Ioc.csproj">
+      <Project>{e3729d92-1b19-443a-ab0b-9145176c705a}</Project>
+      <Name>SitecoreDev.Foundation.Ioc</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Model\SitecoreDev.Foundation.Model\SitecoreDev.Foundation.Model.csproj">
       <Project>{101fda9f-cf11-4272-83ff-3cdb967ce8f9}</Project>
       <Name>SitecoreDev.Foundation.Model</Name>

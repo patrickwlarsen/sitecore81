@@ -305,3 +305,13 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articl
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Repository.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\bin\SitecoreDev.Foundation.Repository.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\web.config
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SimpleInjector.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Ioc.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Ioc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Ioc.dll.config
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SimpleInjector.xml
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\App_Config\Include\Feature\Feature.Articles.config
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\bin\SimpleInjector.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\bin\SitecoreDev.Foundation.Ioc.dll
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\bin\SitecoreDev.Foundation.Ioc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\obj\Release\Package\PackageTmp\bin\SitecoreDev.Foundation.Ioc.dll.config

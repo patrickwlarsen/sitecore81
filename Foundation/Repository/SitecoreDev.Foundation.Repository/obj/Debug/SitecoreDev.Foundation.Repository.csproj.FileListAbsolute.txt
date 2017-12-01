@@ -132,3 +132,10 @@ C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundatio
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\obj\Debug\SitecoreDev.Foundation.Repository.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\obj\Debug\SitecoreDev.Foundation.Repository.pdb
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SitecoreDev.Foundation.Repository.dll.config
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SimpleInjector.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SitecoreDev.Foundation.Ioc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SitecoreDev.Foundation.Ioc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SitecoreDev.Foundation.Ioc.dll.config
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SimpleInjector.xml
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Repository\SitecoreDev.Foundation.Repository\bin\SimpleInjector.Integration.Web.Mvc.xml

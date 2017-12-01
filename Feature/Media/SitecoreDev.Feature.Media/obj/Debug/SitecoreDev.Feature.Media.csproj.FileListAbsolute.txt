@@ -43,3 +43,4 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Foundation.Ioc.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SimpleInjector.xml
 C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\SitecoreDev.Feature.Media\bin\SitecoreDev.Feature.Media.dll.config
