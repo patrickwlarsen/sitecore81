@@ -1,6 +1,5 @@
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\obj\Debug\SitecoreDev.Foundation.Ioc.csprojResolveAssemblyReference.cache
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\obj\Debug\SitecoreDev.Foundation.Ioc.csproj.CoreCompileInputs.cache
-C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\SitecoreDev.Foundation.Ioc.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\SitecoreDev.Foundation.Ioc.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\SitecoreDev.Foundation.Ioc.pdb
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll

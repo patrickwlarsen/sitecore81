@@ -275,7 +275,7 @@
             Destroys and recreates the cache
             </summary>
         </member>
-        <member name="M:Glass.Mapper.Caching.NetMemoryCacheManager.AddOrUpdate``1(System.String,``0)">
+        <member name="M:Glass.Mapper.Caching.NetMemoryCacheManager.InternalAddOrUpdate``1(System.String,``0)">
             <summary>
             Adds or updates the cache.
             </summary>
@@ -295,6 +295,18 @@
             <value>
             <c>true</c> if [use windsor contructor]; otherwise, <c>false</c>.
             </value>
+        </member>
+        <member name="P:Glass.Mapper.Config.EnableLazyLoadingForCachableModels">
+            <summary>
+            When set to false lazy loading will be disabled for all properties that reference other Glass models. This 
+            applies to all models that are also generated as part of the parent model. 
+            Default: false
+            </summary>
+        </member>
+        <member name="P:Glass.Mapper.Config.DebugSettings.SlowModelThreshold">
+            <summary>
+            Time in milliseconds
+            </summary>
         </member>
         <member name="T:Glass.Mapper.Configuration.AbstractTypeConfiguration">
             <summary>
@@ -549,6 +561,12 @@
             <value>
               <c>true</c> if [code first]; otherwise, <c>false</c>.
             </value>
+        </member>
+        <member name="T:Glass.Mapper.Configuration.Attributes.DataMapperAttribute">
+            <summary>
+            Specifies the type of data mapper to use when mapping this property.
+            The type must inherit from <see cref="T:Glass.Mapper.AbstractDataMapper"/>.
+            </summary>
         </member>
         <member name="T:Glass.Mapper.Configuration.Attributes.IdAttribute">
             <summary>
@@ -922,6 +940,18 @@
             </summary>
             <value><c>true</c> if [infer type]; otherwise, <c>false</c>.</value>
         </member>
+        <member name="P:Glass.Mapper.Configuration.SelfConfiguration.IsLazy">
+            <summary>
+            Gets or sets a value indicating whether this instance is lazy.
+            </summary>
+            <value><c>true</c> if this instance is lazy; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Glass.Mapper.Configuration.SelfConfiguration.InferType">
+            <summary>
+            Gets or sets a value indicating whether [infer type].
+            </summary>
+            <value><c>true</c> if [infer type]; otherwise, <c>false</c>.</value>
+        </member>
         <member name="T:Glass.Mapper.Context">
             <summary>
             The context contains the configuration of Glass.Mapper
@@ -1022,11 +1052,6 @@
             </summary>
             <param name="type">The type.</param>
             <returns>AbstractTypeConfiguration.</returns>
-        </member>
-        <member name="F:Glass.Mapper.SettingStack`1._threadStack">
-            <summary>
-            This is only used when a HttpContext.Items isn't available
-            </summary>
         </member>
         <member name="T:Glass.Mapper.ExtensionMethods">
             <summary>
@@ -1286,18 +1311,18 @@
             <value>The type of the reflected.</value>
             <returns>The Type object through which this MemberInfo object was obtained.</returns>
         </member>
-        <member name="M:Glass.Mapper.IoC.AbstractConfigFactory`1.First(System.Func{`0})">
+        <member name="M:Glass.Mapper.IoC.AbstractConfigFactory`1.First``1(System.Func{``0})">
             <summary>
             Inserts function as the first in the list. Same as Insert(0, ()=>new T())
             </summary>
             <param name="add"></param>
         </member>
-        <member name="M:Glass.Mapper.IoC.AbstractConfigFactory`1.Replace(System.Int32,System.Func{`0})">
+        <member name="M:Glass.Mapper.IoC.AbstractConfigFactory`1.Replace``1(System.Int32,System.Func{``0})">
             <summary>
             Replaces the function at the given index
             </summary>
         </member>
-        <member name="M:Glass.Mapper.IoC.AbstractConfigFactory`1.Add(System.Func{`0})">
+        <member name="M:Glass.Mapper.IoC.AbstractConfigFactory`1.Add``1(System.Func{``0})">
             <summary>
             Adds a function to the end of the current list
             </summary>
@@ -1321,6 +1346,24 @@
             <summary>
             Interface IGlassConfiguration
             </summary>
+        </member>
+        <member name="T:Glass.Mapper.MapperException">
+            <summary>
+            Class MapperException
+            </summary>
+        </member>
+        <member name="M:Glass.Mapper.MapperException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Exception" /> class with a specified error message.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:Glass.Mapper.MapperException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Glass.Mapper.MapperException"/> class.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="ex">The ex.</param>
         </member>
         <member name="M:Glass.Mapper.Maps.AbstractGlassMap`2.Configure">
             <summary>
@@ -1404,18 +1447,18 @@
             Used to resolve all configurations for multiple interface proxy type
             </summary>
         </member>
-        <member name="T:Glass.Mapper.Pipelines.ConfigurationResolver.IConfigurationResolverTask">
+        <member name="T:Glass.Mapper.Pipelines.ConfigurationResolver.AbstractConfigurationResolverTask">
             <summary>
             Interface IConfigurationResolverTask
             </summary>
         </member>
-        <member name="T:Glass.Mapper.Pipelines.IPipelineTask`1">
+        <member name="T:Glass.Mapper.Pipelines.AbstractPipelineTask`1">
             <summary>
             Interface IPipelineTask
             </summary>
             <typeparam name="T"></typeparam>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.IPipelineTask`1.Execute(`0)">
+        <member name="M:Glass.Mapper.Pipelines.AbstractPipelineTask`1.Execute(`0)">
             <summary>
             Executes the specified args.
             </summary>
@@ -1458,7 +1501,12 @@
             IEnumerable{AbstractTypeConfiguration}.
             </returns>
         </member>
-        <member name="T:Glass.Mapper.Pipelines.ObjectConstruction.IObjectConstructionTask">
+        <member name="T:Glass.Mapper.Pipelines.DataMapperResolver.AbstractDataMapperResolverTask">
+            <summary>
+            Interface IDataMapperResolverTask
+            </summary>
+        </member>
+        <member name="T:Glass.Mapper.Pipelines.ObjectConstruction.AbstractObjectConstructionTask">
             <summary>
             Interface IObjectConstructionTask
             </summary>
@@ -1495,9 +1543,9 @@
             </summary>
             <param name="invocation">The invocation.</param>
         </member>
-        <member name="T:Glass.Mapper.Profilers.ChainedProfiler">
+        <member name="T:Glass.Mapper.Profilers.SimpleProfiler">
             <summary>
-            Class ChainedProfiler
+            Class SimpleProfiler
             </summary>
         </member>
         <member name="T:Glass.Mapper.Profilers.IPerformanceProfiler">
@@ -1516,6 +1564,11 @@
             Ends the specified key.
             </summary>
             <param name="key">The key.</param>
+        </member>
+        <member name="T:Glass.Mapper.Profilers.ChainedProfiler">
+            <summary>
+            Class ChainedProfiler
+            </summary>
         </member>
         <member name="M:Glass.Mapper.Profilers.ChainedProfiler.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Profilers.IPerformanceProfiler})">
             <summary>
@@ -1546,24 +1599,6 @@
             </summary>
             <value>The profilers.</value>
         </member>
-        <member name="T:Glass.Mapper.MapperException">
-            <summary>
-            Class MapperException
-            </summary>
-        </member>
-        <member name="M:Glass.Mapper.MapperException.#ctor(System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:System.Exception" /> class with a specified error message.
-            </summary>
-            <param name="message">The message that describes the error.</param>
-        </member>
-        <member name="M:Glass.Mapper.MapperException.#ctor(System.String,System.Exception)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Glass.Mapper.MapperException"/> class.
-            </summary>
-            <param name="message">The message.</param>
-            <param name="ex">The ex.</param>
-        </member>
         <member name="T:Glass.Mapper.Pipelines.AbstractPipelineArgs">
             <summary>
             Abstract class that acts as the base class for all arguments passed in pipelines
@@ -1575,23 +1610,11 @@
             </summary>
             <param name="context">The context.</param>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.AbstractPipelineArgs.AbortPipeline">
-            <summary>
-            Aborts the pipeline.
-            </summary>
-            <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
-        </member>
         <member name="P:Glass.Mapper.Pipelines.AbstractPipelineArgs.Context">
             <summary>
             Gets the context.
             </summary>
             <value>The context.</value>
-        </member>
-        <member name="P:Glass.Mapper.Pipelines.AbstractPipelineArgs.IsAborted">
-            <summary>
-            Gets a value indicating whether this instance is aborted.
-            </summary>
-            <value><c>true</c> if this instance is aborted; otherwise, <c>false</c>.</value>
         </member>
         <member name="T:Glass.Mapper.Pipelines.AbstractPipelineRunner`2">
             <summary>
@@ -1654,7 +1677,7 @@
             Class ConfigurationResolver
             </summary>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.ConfigurationResolver.ConfigurationResolver.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.ConfigurationResolver.IConfigurationResolverTask})">
+        <member name="M:Glass.Mapper.Pipelines.ConfigurationResolver.ConfigurationResolver.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.ConfigurationResolver.AbstractConfigurationResolverTask})">
             <summary>
             Initializes a new instance of the <see cref="T:Glass.Mapper.Pipelines.ConfigurationResolver.ConfigurationResolver"/> class.
             </summary>
@@ -1706,16 +1729,11 @@
             Class DataMapperResolver
             </summary>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.DataMapperResolver.DataMapperResolver.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.DataMapperResolver.IDataMapperResolverTask})">
+        <member name="M:Glass.Mapper.Pipelines.DataMapperResolver.DataMapperResolver.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.DataMapperResolver.AbstractDataMapperResolverTask})">
             <summary>
             Initializes a new instance of the <see cref="T:Glass.Mapper.Pipelines.DataMapperResolver.DataMapperResolver"/> class.
             </summary>
             <param name="tasks">The tasks.</param>
-        </member>
-        <member name="T:Glass.Mapper.Pipelines.DataMapperResolver.IDataMapperResolverTask">
-            <summary>
-            Interface IDataMapperResolverTask
-            </summary>
         </member>
         <member name="T:Glass.Mapper.Pipelines.DataMapperResolver.Tasks.DataMapperStandardResolverTask">
             <summary>
@@ -1727,7 +1745,7 @@
             Executes the specified args.
             </summary>
             <param name="args">The args.</param>
-            <exception cref="T:Glass.Mapper.MapperException">Could not find data mapper to handler property {0}.Formatted(args.PropertyConfiguration)</exception>
+            <exception cref="T:Glass.Mapper.MapperException">Could not find data mapper to handle property {0}.Formatted(args.PropertyConfiguration)</exception>
         </member>
         <member name="T:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstructionException">
             <summary>
@@ -1745,7 +1763,7 @@
             Class ObjectConstruction
             </summary>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstruction.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.ObjectConstruction.IObjectConstructionTask})">
+        <member name="M:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstruction.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.ObjectConstruction.AbstractObjectConstructionTask})">
             <summary>
             Initializes a new instance of the <see cref="T:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstruction"/> class.
             </summary>
@@ -1756,7 +1774,7 @@
             Class ObjectConstructionArgs
             </summary>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstructionArgs.#ctor(Glass.Mapper.Context,Glass.Mapper.AbstractTypeCreationContext,Glass.Mapper.Configuration.AbstractTypeConfiguration,Glass.Mapper.IAbstractService)">
+        <member name="M:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstructionArgs.#ctor(Glass.Mapper.Context,Glass.Mapper.AbstractTypeCreationContext,Glass.Mapper.Configuration.AbstractTypeConfiguration,Glass.Mapper.IAbstractService,Glass.Mapper.Diagnostics.ModelCounter)">
             <summary>
             Initializes a new instance of the <see cref="T:Glass.Mapper.Pipelines.ObjectConstruction.ObjectConstructionArgs"/> class.
             </summary>
@@ -1926,7 +1944,7 @@
             <param name="invocation">The invocation.</param>
             <exception cref="T:Glass.Mapper.MapperException">Method with name {0}{1} on type {2} not supported..Formatted(method, name, _args.Configuration.Type.FullName)</exception>
         </member>
-        <member name="T:Glass.Mapper.Pipelines.ObjectSaving.IObjectSavingTask">
+        <member name="T:Glass.Mapper.Pipelines.ObjectSaving.AbstractObjectSavingTask">
             <summary>
             Interface IObjectSavingTask
             </summary>
@@ -1936,7 +1954,7 @@
             Class ObjectSaving
             </summary>
         </member>
-        <member name="M:Glass.Mapper.Pipelines.ObjectSaving.ObjectSaving.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.ObjectSaving.IObjectSavingTask})">
+        <member name="M:Glass.Mapper.Pipelines.ObjectSaving.ObjectSaving.#ctor(System.Collections.Generic.IEnumerable{Glass.Mapper.Pipelines.ObjectSaving.AbstractObjectSavingTask})">
             <summary>
             Initializes a new instance of the <see cref="T:Glass.Mapper.Pipelines.ObjectSaving.ObjectSaving"/> class.
             </summary>
@@ -2020,25 +2038,6 @@
             Ends the specified key.
             </summary>
             <param name="key">The key.</param>
-        </member>
-        <member name="T:Glass.Mapper.Profilers.SimpleProfiler">
-            <summary>
-            Class SimpleProfiler
-            </summary>
-        </member>
-        <member name="M:Glass.Mapper.Profilers.SimpleProfiler.Start(System.String)">
-            <summary>
-            Starts the specified key.
-            </summary>
-            <param name="key">The key.</param>
-            <exception cref="T:System.NotSupportedException">Watch with key {0} already started.Formatted(key)</exception>
-        </member>
-        <member name="M:Glass.Mapper.Profilers.SimpleProfiler.End(System.String)">
-            <summary>
-            Ends the specified key.
-            </summary>
-            <param name="key">The key.</param>
-            <exception cref="T:System.NotSupportedException">No Watch with key {0} found.Formatted(key)</exception>
         </member>
         <!-- Badly formed XML comment ignored for member "M:Glass.Mapper.UrlBuilder.AddToQueryString(System.String)" -->
         <member name="T:Glass.Mapper.Utilities">

@@ -1,4 +1,3 @@
-C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\SitecoreDev.Foundation.Ioc.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\SitecoreDev.Foundation.Ioc.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\SitecoreDev.Foundation.Ioc.pdb
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -92,4 +91,3 @@ C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\o
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.Deployment.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.Razor.dll
-C:\dev\sitecore\projects\SitecoreDev\Foundation\IoC\SitecoreDev.Foundation.Ioc\obj\Release\Package\PackageTmp\web.config

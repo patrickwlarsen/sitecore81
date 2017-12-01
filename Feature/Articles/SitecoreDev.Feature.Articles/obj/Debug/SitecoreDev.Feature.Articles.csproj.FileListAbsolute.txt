@@ -133,12 +133,9 @@ C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articl
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Model.pdb
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Repository.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Repository.pdb
-C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Feature.Articles.dll.config
-C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Repository.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SimpleInjector.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Ioc.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SimpleInjector.Integration.Web.Mvc.dll
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Ioc.pdb
-C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SitecoreDev.Foundation.Ioc.dll.config
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SimpleInjector.xml
 C:\dev\sitecore\projects\SitecoreDev\Feature\Articles\SitecoreDev.Feature.Articles\bin\SimpleInjector.Integration.Web.Mvc.xml

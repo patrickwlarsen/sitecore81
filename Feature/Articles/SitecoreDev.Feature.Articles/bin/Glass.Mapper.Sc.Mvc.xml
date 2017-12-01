@@ -71,22 +71,6 @@
             <returns></returns>
             <exception cref="T:Glass.Mapper.MapperException">Failed to find context {0}.Formatted(ContextName)</exception>
         </member>
-        <member name="P:Glass.Mapper.Sc.Pipelines.Response.GetModel.ContextName">
-            <summary>
-            Gets or sets the name of the context.
-            </summary>
-            <value>
-            The name of the context.
-            </value>
-        </member>
-        <member name="P:Glass.Mapper.Sc.Pipelines.Response.GetModelFromView.ContextName">
-            <summary>
-            Gets or sets the name of the context.
-            </summary>
-            <value>
-            The name of the context.
-            </value>
-        </member>
         <member name="T:Glass.Mapper.Sc.Mvc.Pipelines.Response.GetRenderer.GetViewRendererWithItemValidation">
             <summary>
             This class overrides Sitecores default view rendering. Sitecore by default will return a RenderingItem even
