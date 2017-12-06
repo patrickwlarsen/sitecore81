@@ -1,0 +1,2 @@
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\Sitecoredev.Feature.Media.Tests\obj\Release\Sitecoredev.Feature.Media.Tests.csprojResolveAssemblyReference.cache
+C:\dev\sitecore\projects\SitecoreDev\Feature\Media\Sitecoredev.Feature.Media.Tests\obj\Release\Sitecoredev.Feature.Media.Tests.csproj.CoreCompileInputs.cache

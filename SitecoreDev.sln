@@ -54,6 +54,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.Ioc"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecoredev.Feature.Media.Tests", "Feature\Media\Sitecoredev.Feature.Media.Tests\Sitecoredev.Feature.Media.Tests.csproj", "{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indexing", "Indexing", "{7E9CC114-699C-475D-B626-1EAACB391ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.Index", "Foundation\Indexing\SitecoreDev.Foundation.Index\SitecoreDev.Foundation.Index.csproj", "{D2EFC64E-F5C6-4BEA-9B08-5A10B9C7D4BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +104,10 @@ Global
 		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EFC64E-F5C6-4BEA-9B08-5A10B9C7D4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EFC64E-F5C6-4BEA-9B08-5A10B9C7D4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EFC64E-F5C6-4BEA-9B08-5A10B9C7D4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EFC64E-F5C6-4BEA-9B08-5A10B9C7D4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +132,8 @@ Global
 		{F76EA6B2-86C6-4465-81AF-B91FE4E0CB8C} = {7B353391-929A-4889-9C2E-CBFD84AA9A22}
 		{E3729D92-1B19-443A-AB0B-9145176C705A} = {F76EA6B2-86C6-4465-81AF-B91FE4E0CB8C}
 		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897} = {DB6C05B0-3C14-4F8A-B56A-4EE32B4DEC70}
+		{7E9CC114-699C-475D-B626-1EAACB391ABE} = {7B353391-929A-4889-9C2E-CBFD84AA9A22}
+		{D2EFC64E-F5C6-4BEA-9B08-5A10B9C7D4BB} = {7E9CC114-699C-475D-B626-1EAACB391ABE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C568306-C639-449D-958E-E36404ED465F}
