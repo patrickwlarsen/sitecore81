@@ -9,3 +9,6 @@ C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.F
 C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.csproj.CoreCompileInputs.cache
 C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Debug\SitecoreDev.Foundation.SitecoreExtensions.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\DynamicPlaceholders.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\DynamicPlaceholders.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Sitecore.Mvc.ExperienceEditor.dll
