@@ -18,6 +18,9 @@
     "gulp-watch": "^4.3.5",
     "run-sequence": "^1.1.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
   "author": "pla"
 }
