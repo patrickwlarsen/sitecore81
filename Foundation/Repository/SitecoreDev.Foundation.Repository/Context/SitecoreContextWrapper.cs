@@ -6,6 +6,7 @@ namespace SitecoreDev.Foundation.Repository.Context
     public class SitecoreContextWrapper : IContextWrapper
     {
         public bool IsExperienceEditor { get { return Sitecore.Context.PageMode.IsExperienceEditor; } }
+        public string Datasource => RenderingContext.Current.Rendering.DataSource;
 
         public string GetParameterValue(string key)
         {

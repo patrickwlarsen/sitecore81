@@ -28,9 +28,9 @@ namespace SitecoreDev.Feature.Media.Controllers
         {
             var viewModel = new HeroSliderViewModel();
 
-            if (!String.IsNullOrEmpty(RenderingContext.Current.Rendering.DataSource))
+            if (!String.IsNullOrEmpty(_contextWrapper.Datasource))
             {
-                var contentItem = _mediaContentService.GetHeroSliderContent(RenderingContext.Current.Rendering.DataSource);
+                var contentItem = _mediaContentService.GetHeroSliderContent(_contextWrapper.Datasource);
 
                 foreach (var slide in contentItem?.Slides)
                 {

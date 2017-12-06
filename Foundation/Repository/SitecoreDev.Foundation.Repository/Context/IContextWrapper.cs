@@ -6,5 +6,6 @@ namespace SitecoreDev.Foundation.Repository.Context
     {
         string GetParameterValue(string key);
         bool IsExperienceEditor { get; }
+        string Datasource { get; }
     }
 }
