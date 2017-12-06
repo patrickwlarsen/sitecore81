@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SitecoreDev.Feature.Media.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,5 +15,6 @@ namespace SitecoreDev.Feature.Media.ViewModels
         public bool IsSliderIntervalSet { get { return SlideInterval > 0; } }
         public bool IsInExperienceEditorMode { get; set; }
         public string ParentGuid { get; set; }
+        public IHeroSlider HeroSliderItem { get; set; }
     }
 }

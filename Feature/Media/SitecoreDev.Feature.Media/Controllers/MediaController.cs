@@ -5,6 +5,9 @@ using SitecoreDev.Feature.Media.ViewModels;
 using SitecoreDev.Foundation.Repository.Context;
 using SitecoreDev.Feature.Media.Services;
 using System.Linq;
+using Glass.Mapper.Sc;
+using System.Web;
+using SitecoreDev.Feature.Media.Models;
 
 namespace SitecoreDev.Feature.Media.Controllers
 {
@@ -12,11 +15,13 @@ namespace SitecoreDev.Feature.Media.Controllers
     {
         private readonly IMediaContentService _mediaContentService;
         private readonly IContextWrapper _contextWrapper;
+        private readonly IGlassHtml _glassHtml;
 
-        public MediaController(IContextWrapper contextWrapper, IMediaContentService mediaContentService)
+        public MediaController(IContextWrapper contextWrapper, IMediaContentService mediaContentService, IGlassHtml glassHtml)
         {
             _contextWrapper = contextWrapper;
             _mediaContentService = mediaContentService;
+            _glassHtml = glassHtml;
         }
 
         public ViewResult HeroSlider()
@@ -31,9 +36,8 @@ namespace SitecoreDev.Feature.Media.Controllers
                 {
                     viewModel.HeroImages.Add(new HeroSliderImageViewModel()
                     {
-                        Id = slide.Id.ToString(),
-                        MediaUrl = slide.Image?.Src,
-                        AltText = slide.Image?.Alt
+                        Image = new HtmlString(_glassHtml.Editable<IHeroSliderSlide>(
+                            slide, i => i.Image))
                     });
                 }
                 var firstItem = viewModel.HeroImages.FirstOrDefault();
