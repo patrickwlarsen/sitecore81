@@ -15,45 +15,39 @@ using System.Linq.Expressions;
 namespace Sitecoredev.Feature.Media.Tests.Controllers
 {
     [TestClass]
-    public class HeroSliderTests
+    public class HeroSliderTests : TestBase<ControllerTestHarness>
     {
         [TestMethod]
         public void HeroSliderSuccessful()
         {
             //Arrange
-            var fixture = new Fixture();
-
-            var content = fixture.Build<HeroSlider>()
-                .With(x => x.Slides, fixture.CreateMany<HeroSliderSlide>().ToList())
+            var content = _testHarness.Fixture.Build<HeroSlider>()
+                .With(x => x.Slides, _testHarness.Fixture.CreateMany<HeroSliderSlide>().ToList())
                 .Create();
 
-            var contentService = new Mock<IMediaContentService>();
-            contentService.Setup(x => x.GetHeroSliderContent(It.IsAny<string>()))
+            _testHarness.ContentService.Setup(x => x.GetHeroSliderContent(It.IsAny<string>()))
                 .Returns(content)
                 .Verifiable();
 
-            var contextWrapper = new Mock<IContextWrapper>();
-            contextWrapper.Setup(x => x.GetParameterValue(It.IsAny<string>()))
+            _testHarness.ContextWrapper.Setup(x => x.GetParameterValue(It.IsAny<string>()))
                 .Returns("500")
                 .Verifiable();
-            contextWrapper.SetupGet(x => x.IsExperienceEditor)
+            _testHarness.ContextWrapper.SetupGet(x => x.IsExperienceEditor)
                 .Returns(true)
                 .Verifiable();
-            contextWrapper.SetupGet(x => x.Datasource)
+            _testHarness.ContextWrapper.SetupGet(x => x.Datasource)
                 .Returns(Guid.NewGuid().ToString())
                 .Verifiable();
-
-            var glassHtml = new Mock<IGlassHtml>();
-            glassHtml.Setup(x => x.Editable(
+            
+            _testHarness.GlassHtml.Setup(x => x.Editable(
                     It.IsAny<IHeroSliderSlide>(),
                     It.IsAny<Expression<Func<IHeroSliderSlide, object>>>(),
                     It.IsAny<object>()))
                 .Returns("test")
                 .Verifiable();
-            var controller = new MediaController(contextWrapper.Object, contentService.Object, glassHtml.Object);
 
             //Act
-            var result = controller.HeroSlider();
+            var result = _testHarness.Controller.HeroSlider();
 
             //Assert
             result.Should().NotBeNull();
@@ -73,27 +67,18 @@ namespace Sitecoredev.Feature.Media.Tests.Controllers
         public void HeroSliderEmptyDatasource()
         {
             //Arrange
-            var fixture = new Fixture();
-
-            var contentService = new Mock<IMediaContentService>();
-
-            var contextWrapper = new Mock<IContextWrapper>();
-            contextWrapper.Setup(x => x.GetParameterValue(It.IsAny<string>()))
+            _testHarness.ContextWrapper.Setup(x => x.GetParameterValue(It.IsAny<string>()))
                 .Returns("500")
                 .Verifiable();
-            contextWrapper.SetupGet(x => x.IsExperienceEditor)
+            _testHarness.ContextWrapper.SetupGet(x => x.IsExperienceEditor)
                 .Returns(true)
                 .Verifiable();
-            contextWrapper.SetupGet(x => x.Datasource)
+            _testHarness.ContextWrapper.SetupGet(x => x.Datasource)
                 .Returns(string.Empty)
                 .Verifiable();
 
-            var glassHtml = new Mock<IGlassHtml>();
-
-            var controller = new MediaController(contextWrapper.Object, contentService.Object, glassHtml.Object);
-
             //Act
-            var result = controller.HeroSlider();
+            var result = _testHarness.Controller.HeroSlider();
 
             //Assert
             result.Should().NotBeNull();
