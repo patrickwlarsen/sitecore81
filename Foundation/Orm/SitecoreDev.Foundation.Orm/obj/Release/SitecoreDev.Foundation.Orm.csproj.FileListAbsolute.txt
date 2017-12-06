@@ -101,3 +101,11 @@ C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\o
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\bin\Glass.Mapper.pdb
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\bin\Glass.Mapper.Sc.pdb
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\bin\Glass.Mapper.Sc.Mvc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SimpleInjector.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SitecoreDev.Foundation.Ioc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SitecoreDev.Foundation.Ioc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SimpleInjector.xml
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\App_Config\Include\Foundation\Foundation.Orm.config
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\bin\SimpleInjector.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\bin\SitecoreDev.Foundation.Ioc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Release\Package\PackageTmp\bin\SitecoreDev.Foundation.Ioc.pdb

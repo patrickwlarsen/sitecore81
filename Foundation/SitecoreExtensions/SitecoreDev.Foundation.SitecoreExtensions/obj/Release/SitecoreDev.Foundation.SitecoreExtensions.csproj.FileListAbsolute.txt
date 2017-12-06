@@ -62,3 +62,11 @@ C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.F
 C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\bin\Sitecore.Kernel.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\bin\Sitecore.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\DynamicPlaceholders.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\DynamicPlaceholders.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\bin\Sitecore.Mvc.ExperienceEditor.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\Content\foundation.sitecoreextensions.css
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\bin\DynamicPlaceholders.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\bin\DynamicPlaceholders.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\SitecoreExtensions\SitecoreDev.Foundation.SitecoreExtensions\obj\Release\Package\PackageTmp\bin\Sitecore.Mvc.ExperienceEditor.dll

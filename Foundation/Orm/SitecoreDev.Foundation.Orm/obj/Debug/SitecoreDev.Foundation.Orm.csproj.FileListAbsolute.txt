@@ -33,3 +33,9 @@ C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\b
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\System.Web.Mvc.xml
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Debug\SitecoreDev.Foundation.Orm.dll
 C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\obj\Debug\SitecoreDev.Foundation.Orm.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SimpleInjector.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SitecoreDev.Foundation.Ioc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SitecoreDev.Foundation.Ioc.pdb
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SimpleInjector.xml
+C:\dev\sitecore\projects\SitecoreDev\Foundation\Orm\SitecoreDev.Foundation.Orm\bin\SimpleInjector.Integration.Web.Mvc.xml
