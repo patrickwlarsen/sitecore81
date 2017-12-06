@@ -42,7 +42,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.Orm"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{1AA13F47-4737-4AE1-A4F6-B9D4D9CEBE2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.Model", "Foundation\Model\SitecoreDev.Foundation.Model\SitecoreDev.Foundation.Model.csproj", "{101FDA9F-CF11-4272-83FF-3CDB967CE8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SitecoreDev.Foundation.Model", "Foundation\Model\SitecoreDev.Foundation.Model\SitecoreDev.Foundation.Model.csproj", "{101FDA9F-CF11-4272-83FF-3CDB967CE8F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{7D8C6E54-3A42-4B36-AFDD-48C7FD3424A2}"
 EndProject
@@ -51,6 +51,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{F76EA6B2-86C6-4465-81AF-B91FE4E0CB8C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Foundation.Ioc", "Foundation\IoC\SitecoreDev.Foundation.Ioc\SitecoreDev.Foundation.Ioc.csproj", "{E3729D92-1B19-443A-AB0B-9145176C705A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecoredev.Feature.Media.Tests", "Feature\Media\Sitecoredev.Feature.Media.Tests\Sitecoredev.Feature.Media.Tests.csproj", "{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +96,10 @@ Global
 		{E3729D92-1B19-443A-AB0B-9145176C705A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3729D92-1B19-443A-AB0B-9145176C705A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3729D92-1B19-443A-AB0B-9145176C705A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{C3A89338-76D2-4C92-99D8-EE583C674EC0} = {7D8C6E54-3A42-4B36-AFDD-48C7FD3424A2}
 		{F76EA6B2-86C6-4465-81AF-B91FE4E0CB8C} = {7B353391-929A-4889-9C2E-CBFD84AA9A22}
 		{E3729D92-1B19-443A-AB0B-9145176C705A} = {F76EA6B2-86C6-4465-81AF-B91FE4E0CB8C}
+		{F4A5C5C2-2387-4313-80A9-0ADD8F11F897} = {DB6C05B0-3C14-4F8A-B56A-4EE32B4DEC70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C568306-C639-449D-958E-E36404ED465F}

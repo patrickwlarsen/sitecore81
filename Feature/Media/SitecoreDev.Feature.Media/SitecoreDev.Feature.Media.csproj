@@ -117,6 +117,8 @@
     <Compile Include="Controllers\MediaController.cs" />
     <Compile Include="Models\Configuration\IHeroSliderMap.cs" />
     <Compile Include="Models\Configuration\IHeroSliderSlideMap.cs" />
+    <Compile Include="Models\HeroSlider.cs" />
+    <Compile Include="Models\HeroSliderSlide.cs" />
     <Compile Include="Models\IHeroSlider.cs" />
     <Compile Include="Models\IHeroSliderSlide.cs" />
     <Compile Include="Pipelines\InitializeContainer\RegisterDependencies.cs" />
