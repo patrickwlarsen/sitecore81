@@ -86,3 +86,4 @@ C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\bin\System.Web.Webpages.Razor.dll
 C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\Web.config
+C:\dev\sitecore\projects\SitecoreDev\Project\SitecoreDev\SitecoreDev.Website\obj\Release\Package\PackageTmp\Content\sitecoredev.website.css

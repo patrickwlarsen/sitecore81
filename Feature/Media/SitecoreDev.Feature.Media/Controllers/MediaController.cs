@@ -31,18 +31,22 @@ namespace SitecoreDev.Feature.Media.Controllers
                 {
                     viewModel.HeroImages.Add(new HeroSliderImageViewModel()
                     {
-                        MediaUrl = slide.Image.Src,
-                        AltText = slide.Image.Alt
+                        Id = slide.Id.ToString(),
+                        MediaUrl = slide.Image?.Src,
+                        AltText = slide.Image?.Alt
                     });
                 }
                 var firstItem = viewModel.HeroImages.FirstOrDefault();
                 firstItem.IsActive = true;
+                viewModel.ParentGuid = contentItem.Id.ToString();
             }
 
             var parameterValue = _contextWrapper.GetParameterValue("Slide Interval in Milliseconds");
             int interval = 0;
             if (int.TryParse(parameterValue, out interval))
                 viewModel.SlideInterval = interval;
+
+            viewModel.IsInExperienceEditorMode = _contextWrapper.IsExperienceEditor;
 
             return View(viewModel);
         }

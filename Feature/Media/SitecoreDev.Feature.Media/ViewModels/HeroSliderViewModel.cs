@@ -12,5 +12,7 @@ namespace SitecoreDev.Feature.Media.ViewModels
         public bool HasImages => ImageCount > 0;
         public int SlideInterval { get; set; }
         public bool IsSliderIntervalSet { get { return SlideInterval > 0; } }
+        public bool IsInExperienceEditorMode { get; set; }
+        public string ParentGuid { get; set; }
     }
 }

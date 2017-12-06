@@ -10,5 +10,6 @@ namespace SitecoreDev.Feature.Media.ViewModels
         public string MediaUrl { get; set; }
         public string AltText { get; set; }
         public bool IsActive { get; set; }
+        public string Id { get; set; }
     }
 }

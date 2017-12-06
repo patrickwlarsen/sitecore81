@@ -95,6 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\sitecoredev.website.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
