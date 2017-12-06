@@ -15,39 +15,34 @@ using SitecoreDev.Feature.Media.Services;
 namespace Sitecoredev.Feature.Media.Tests.Services
 {
     [TestClass]
-    public class GetHeroSliderContentTests
+    public class GetHeroSliderContentTests : TestBase<ServiceTestHarness>
     {
         [TestMethod]
         public void GetHeroSliderContentSuccessful()
         {
             //Arrange
-            var fixture = new Fixture();
-
-            var heroSlide = fixture
+            var heroSlide = _testHarness.Fixture
                 .Build<HeroSlider>()
                 .Without(x => x.Slides)
                 .Create();
-            var children = fixture
+            var children = _testHarness.Fixture
                 .CreateMany<HeroSliderSlide>()
                 .ToList();
-
-            var repository = new Mock<IContentRepository>();
-            repository
+            
+            _testHarness.ContentRepository
                 .Setup(x => x.GetContentItem<IHeroSlider>(It.IsAny<string>()))
                 .Returns(heroSlide)
                 .Verifiable();
-            repository
+            _testHarness.ContentRepository
                 .Setup(x => x.GetChildren<IHeroSliderSlide>(It.IsAny<string>()))
                 .Returns(children)
                 .Verifiable();
-
-            var service = new SitecoreMediaContentService(repository.Object);
-
+            
             //Act
-            var result = service.GetHeroSliderContent("123");
+            var result = _testHarness.ContentService.GetHeroSliderContent("123");
 
             //Assert
-            repository.Verify();
+            _testHarness.ContentRepository.Verify();
             result.Should().NotBeNull();
             result.Slides.Should().NotBeNullOrEmpty();
             result.Slides.Count().Should().Be(children.Count());
@@ -64,18 +59,15 @@ namespace Sitecoredev.Feature.Media.Tests.Services
             var contentGuidNullException = new ArgumentNullException("contentGuid");
             var parentGuidNullException = new ArgumentNullException("parentGuid");
 
-            var repository = new Mock<IContentRepository>();
-            repository
+            _testHarness.ContentRepository
                 .Setup(x => x.GetContentItem<IHeroSlider>(String.Empty))
                 .Throws(contentGuidNullException);
-            repository
+            _testHarness.ContentRepository
                 .Setup(x => x.GetChildren<IHeroSliderSlide>(String.Empty))
                 .Throws(parentGuidNullException);
 
-            var service = new SitecoreMediaContentService(repository.Object);
-
             //Act
-            var result = service.GetHeroSliderContent(String.Empty);
+            var result = _testHarness.ContentService.GetHeroSliderContent(String.Empty);
 
             //Assert
             result.Should().BeNull();
