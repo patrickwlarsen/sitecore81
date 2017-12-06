@@ -10,5 +10,7 @@ namespace SitecoreDev.Feature.Media.ViewModels
         public List<HeroSliderImageViewModel> HeroImages { get; set; } = new List<HeroSliderImageViewModel>();
         public int ImageCount => HeroImages.Count;
         public bool HasImages => ImageCount > 0;
+        public int SlideInterval { get; set; }
+        public bool IsSliderIntervalSet { get { return SlideInterval > 0; } }
     }
 }

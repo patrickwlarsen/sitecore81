@@ -6,16 +6,19 @@ using Sitecore.Mvc.Presentation;
 using Sitecore.Resources.Media;
 using SitecoreDev.Feature.Media.Repositories;
 using SitecoreDev.Feature.Media.ViewModels;
+using SitecoreDev.Foundation.Repository.Context;
 
 namespace SitecoreDev.Feature.Media.Controllers
 {
     public class MediaController : Controller
     {
         private readonly IMediaRepository _repository;
+        private readonly IContextWrapper _contextWrapper;
 
-        public MediaController()
+        public MediaController(IContextWrapper contextWrapper)
         {
             _repository = new SitecoreMediaRepository();
+            _contextWrapper = contextWrapper;
         }
 
         public ViewResult HeroSlider()
@@ -46,7 +49,11 @@ namespace SitecoreDev.Feature.Media.Controllers
                     }
                 }
             }
-            
+
+            var parameterValue = _contextWrapper.GetParameterValue("Slide Interval in Milliseconds");
+            int interval = 0;
+            if (int.TryParse(parameterValue, out interval))
+                viewModel.SlideInterval = interval;
             return View(viewModel);
         }
     }

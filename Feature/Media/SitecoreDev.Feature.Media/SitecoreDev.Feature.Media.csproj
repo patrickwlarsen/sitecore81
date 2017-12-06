@@ -109,6 +109,10 @@
     <Content Include="Views\Media\HeroSlider.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Repository\SitecoreDev.Foundation.Repository\SitecoreDev.Foundation.Repository.csproj">
+      <Project>{C3A89338-76D2-4C92-99D8-EE583C674EC0}</Project>
+      <Name>SitecoreDev.Foundation.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Articles\SitecoreDev.Feature.Articles\SitecoreDev.Feature.Articles.csproj">
       <Project>{7abfb30a-ba2c-4a2c-bbda-011220425a99}</Project>
       <Name>SitecoreDev.Feature.Articles</Name>
